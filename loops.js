@@ -7,6 +7,8 @@ function forLoop(arr) {
       arr[i] = `I am ${i} strange loops.`;
     }
   }
+  
+  return arr;
 }
 
 /* TODO: Create a function called whileLoop in loops.js. The function should take a number as an argument. Using a while loop, count down (using console.log) from the passed in number to 0. Then return the string 'done'. */
@@ -22,6 +24,8 @@ function doWhileLoop(arr) {
   do {
     arr.pop();
   } while ( arr.length > 0 && maybeTrue() );
+  
+  return arr;
 }
 
 function maybeTrue() {
